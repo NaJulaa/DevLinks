@@ -2,11 +2,13 @@
   "name": "DevLinks",
   "version": "0.1.0",
   "homepage": "http://Najulaa.github.io/DevLinks",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
 
   "dependencies": {
