@@ -1,13 +1,13 @@
 {
   "name": "DevLinks",
   "version": "0.1.0",
-  "homepage": "http://Najulaa.github.io/DevLinks",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist" 
+},
+
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
     "react": "^19.2.0",
